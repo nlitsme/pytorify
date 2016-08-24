@@ -19,5 +19,6 @@ if m:
 else:
     print("failed to check tor status")
 
-
-
+# <h1 class="off">  - not using tor
+# <h1 class="not">  - using tor without torbrowser
+# <h1 class="on">  - using tor with torbrowser
