@@ -14,6 +14,11 @@ When using this module:
  * PySocks
  * TOR, with socks5 proxy at localhost, port 9050
 
+
+The original [SocksiPy (1.0.0)](http://socksipy.sourceforge.net/) module is no longer being maintained,
+there are several forks, like [PySocks 1.5.7 By Anorov](https://github.com/Anorov/PySocks).
+
+
 ## Usage
 
 `torify` can be used either in two ways, either loaded from the
