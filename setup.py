@@ -13,7 +13,6 @@ setup(
     license = "MIT",
     keywords = "TOR networking",
     url = "https://github.com/nlitsme/pytorify/",
-    download_url = "https://github.com/nlitsme/pytorify/releases",
     long_description = "Tool for redirecting all TCP traffic over TOR",
     classifiers = [
         'Development Status :: 4 - Beta',
