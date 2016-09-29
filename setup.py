@@ -5,20 +5,16 @@ setup(
     py_modules = ['torify'],
     test_suite = 'test_torify',
 
-    # Project uses reStructuredText, so ensure that the docutils get
-    # installed or upgraded on the target machine
     install_requires = ['PySocks>=1.5.6'],
 
-    # metadata for upload to PyPI
     author = "Willem Hengeveld",
     author_email = "itsme@xs4all.nl",
     description = "Torify python scripts",
     license = "MIT",
     keywords = "TOR networking",
     url = "https://github.com/nlitsme/pytorify/",
-
+    download_url = "https://github.com/nlitsme/pytorify/releases",
     long_description = "Tool for redirecting all TCP traffic over TOR",
-    download_url = "",
     classifiers = [
         'Development Status :: 4 - Beta',
         'Environment :: Console',
